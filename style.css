@@ -1,0 +1,62 @@
+*{
+   padding: 0;
+   margin: 0;
+   text-decoration: none;
+   list-style: none;
+}
+body{
+    font-family: montserrat;
+}
+nav{
+    background: rgb(255, 127, 127);
+    height: 85px;
+    width: 100%;
+    opacity: 95%;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+label.logo2{
+    color: aliceblue;
+    font-size: 40px;
+    font-weight: bolder;
+    position: relative;
+    left: 68px ;
+    top: 23%;
+    margin-right: 85px;
+}
+ul{
+    display: flex;
+    align-items: center;
+    margin-right: 3%;
+}
+nav ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+}
+nav ul li a{
+    color: white;
+    margin: 7px;
+    font-size: 16px;
+    padding: 8px;
+    background: rgb(238, 163, 163) ;
+    border-radius: 7px;
+    
+    
+}
+
+div.logo{
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+img.bc{
+    height: 45px;
+    width: 45px;
+    border: solid 2px rgb(148, 99, 99);
+    border-radius: 150px;
+    
+}
