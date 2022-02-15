@@ -8,24 +8,25 @@ body{
     font-family: montserrat;
 }
 nav{
-    background: rgb(255, 127, 127);
     height: 85px;
     width: 100%;
-    opacity: 95%;
-    border-radius: 15px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
 }
-
 label.logo2{
-    color: aliceblue;
+    color: #ff7f7f;
     font-size: 40px;
     font-weight: bolder;
+    padding-left: 20px;
     position: relative;
-    left: 68px ;
+    left: 13% ;
     top: 23%;
     margin-right: 85px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+label.logo2:hover{
+    color: rgb(31, 223, 181);
 }
 ul{
     display: flex;
@@ -35,8 +36,8 @@ ul{
 nav ul li{
     padding: 10px;
     text-transform: uppercase;
-    transition: 0.5s;
 }
+
 nav ul li a{
     color: white;
     margin: 7px;
@@ -44,28 +45,44 @@ nav ul li a{
     padding: 8px;
     background: rgb(238, 163, 163) ;
     border-radius: 7px;
+    transition: 0.6s;
     
     
+}
+nav ul li a:hover{
+    background: rgb(31, 223, 181);
 }
 
 div.logo{
     position: absolute;
     top: 20px;
-    left: 10px;
+    left: 6%;
+    cursor: pointer;
+    
 }
 img.bc{
     height: 45px;
     width: 45px;
-    border: solid 2px rgb(148, 99, 99);
+    border: solid 4px rgb(122, 219, 166);
     border-radius: 150px;
     
 
 }
-div.me{
-    display: flex;
-    width: 100%;
-    
-}
+ img.coverphoto{
+     height: 100vh;
+     width: 900px;
+     border: solid 5px white;
+     border-radius: 40px;
+ }
+ @media only screen and (max-width:900px){
+  
+    label.logo2{
+        padding-left: 20px;
+    }
+
+
+ }
+
 @media  only screen and (max-width:700px){
 
 
@@ -82,12 +99,13 @@ div.me{
         position: absolute;
         left: 39% ;
         top: 25px;
+        padding-left: 0px;
     }
 
     div.logo{
         position: absolute;
         top: 22px;
-        left: 25%;
+        left: 26%;
     }
 
     ul{
@@ -97,8 +115,8 @@ div.me{
         position: relative;
         top: 160%;
         height: 85px;
-        background: rgb(255, 127, 127);
-        border: solid white;
+        border: solid 3px rgb(31, 223, 181);
+        background: rgb(190, 245, 231);
         border-radius: 50px;
         width: 45%;
         left: 26%;
@@ -111,21 +129,27 @@ nav ul li{
     margin: 4px;
     
 }
+img.coverphoto{
+    width: 700px;
+    height: 83vh;
+}
 
 }
-@media only screen and (max-width:523px){
+@media only screen and (max-width:550px){
 
      ul{
         width: 55%;
         left: 20%;
         height: 150px;
-     }
+        background: none;
+        border: solid 3px rgb(31, 223, 181);
+    }
+     
      nav ul li a{
-        margin: 7px;
-        padding: 7px;
+        margin: 15px;
+        padding: 6px 15px;
         background: rgb(238, 163, 163) ;
         border-radius: 9px;
-        
         
     }
     label.logo2{
@@ -137,4 +161,22 @@ nav ul li{
         top: 22px;
         left: 20%;
     }
+    img.coverphoto{
+        width: 550px ;
+        height: 69vh;
+        position: relative;
+        top: 165px;
+    }
+}
+@media only screen and (max-width:438px ){
+    ul{
+        left: 24%;
+    }
+    img.coverphoto{
+        width: 438px;
+        height:  60vh ;
+        position: relative;
+        top: 166px;
+    }
+
 }
