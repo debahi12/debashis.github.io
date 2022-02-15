@@ -59,4 +59,82 @@ img.bc{
     border: solid 2px rgb(148, 99, 99);
     border-radius: 150px;
     
+
+}
+div.me{
+    display: flex;
+    width: 100%;
+    
+}
+@media  only screen and (max-width:700px){
+
+
+
+    nav{
+        border-radius: 15px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    label.logo2{
+        display: flex;
+
+        position: absolute;
+        left: 39% ;
+        top: 25px;
+    }
+
+    div.logo{
+        position: absolute;
+        top: 22px;
+        left: 25%;
+    }
+
+    ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: 160%;
+        height: 85px;
+        background: rgb(255, 127, 127);
+        border: solid white;
+        border-radius: 50px;
+        width: 45%;
+        left: 26%;
+        height: 150px;
+}
+nav ul li{
+    padding: 10px;
+    text-transform: uppercase;
+    transition: 0.5s;
+    margin: 4px;
+    
+}
+
+}
+@media only screen and (max-width:523px){
+
+     ul{
+        width: 55%;
+        left: 20%;
+        height: 150px;
+     }
+     nav ul li a{
+        margin: 7px;
+        padding: 7px;
+        background: rgb(238, 163, 163) ;
+        border-radius: 9px;
+        
+        
+    }
+    label.logo2{
+        left: 35% ;
+
+    }
+    div.logo{
+        position: absolute;
+        top: 22px;
+        left: 20%;
+    }
 }
