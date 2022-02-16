@@ -1,0 +1,106 @@
+
+@media only screen and (max-width:1253px){
+
+label.logo2{
+    top: 3vh;
+}
+}
+
+
+@media only screen and (max-width:965px){
+  
+    label.logo2{
+        top: 2.5vh;
+    }
+    ul.menubar{
+        display: flex;
+        padding-top: 4vh;
+        padding-right: 6vw;
+    }
+}
+
+@media only screen and (max-width:865px){
+
+    nav.navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    label.logo2{
+        font-size: 2.5vw;
+        left: 35vw;
+        top: 2vh;
+        height: 6vh;
+        width: 30.5vw ;
+    }
+    label.logo2:hover{
+        height: 6.5vh;
+        width: 34vw;
+    }
+
+   ul.menubar{
+    position: relative;
+     justify-content: center;
+     top: 2.5vh;
+     padding-right: 0vw;
+   }
+
+  .box{
+      height: 25vh;
+      width: 47vw;
+      left: 28vw;
+      top: 13vh ;
+  }
+  
+  .box:hover{
+    height: 27vh;
+    width: 49vw;
+  }
+  .box p.hi-my{
+      font-size: 3vw;
+  }
+    
+.box p.hi-my{
+    font-size: 3.5vw;
+}
+
+}
+
+@media only screen and (max-width:600px){
+
+
+    .box p.hi-my{
+        font-size: 4vw;
+    }
+    label.logo2{
+        font-size: 3vw;
+        transition: 0.2s;
+    }
+    .box{
+        transition: 0.3s;
+    }
+}
+@media only screen and (max-width:497px){
+  
+    nav ul li a{
+        font-size: 2vw;
+    }
+   .box{
+       height: 18vh;
+   }
+   .box:hover{
+       height: 16vh ;
+       width: 50vw;
+       transition: 0.5s;
+   }
+label.logo2{
+    height: 6vh;
+    width:40vw ;
+    font-size: 4vw;
+}
+label.logo2:hover{
+    width: 45vw;
+    left: 33vw;
+    font-size:5vw ;
+}
+}
